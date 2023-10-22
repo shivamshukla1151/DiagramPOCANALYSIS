@@ -3,9 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { registerLicense } from "@syncfusion/ej2-base";
-registerLicense(
-  "Ngo9BigBOggjHTQxAR8/V1NHaF5cXmVCf1JpR2JGfV5yd0VEal1UTnNdUj0eQnxTdEZiWX1ccXBUQ2VfVU1+XA=="
-);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
